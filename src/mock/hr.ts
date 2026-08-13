@@ -1,0 +1,78 @@
+export const hrMockData = {
+  user: {
+    name: 'Ziyana Ayonote',
+    jobTitle: 'Head of Strategy',
+    department: 'Strategy & Operations',
+  },
+  performanceCards: [
+    { label: 'Org. Avg. Score', value: '86.3%', delta: '+1.5%', deltaPositive: true, icon: 'chart-bar', subtitle: 'Q3 2025' },
+    { label: 'Leave Requests', value: '12', delta: '+4', deltaPositive: false, icon: 'calendar', subtitle: 'Pending review' },
+    { label: 'AIE Requests', value: '7', delta: '+2', deltaPositive: false, icon: 'document', subtitle: 'Pending approval' },
+    { label: 'Headcount', value: '142', delta: '+3', deltaPositive: true, icon: 'trending-up', subtitle: 'Active employees' },
+  ],
+  roleHubModules: [
+    {
+      id: 'obligations',
+      title: 'Obligations',
+      description: 'View and manage assigned strategic obligations and operational tasks.',
+      icon: 'check',
+      path: '/role-hub/obligations',
+    },
+    {
+      id: 'staff-insights',
+      title: 'Staff Insights',
+      description: 'Access employee records and workforce information.',
+      icon: 'users',
+      path: '/role-hub/staff-insights',
+    },
+    {
+      id: 'talent-recruitment',
+      title: 'Talent & Recruitment',
+      description: 'Manage recruitment requests, vacancies, interviews and hiring workflows.',
+      icon: 'briefcase',
+      path: '/role-hub/talent-recruitment',
+    },
+    {
+      id: 'performance-management',
+      title: 'Performance Management',
+      description: 'View performance reviews, appraisals and KPI management.',
+      icon: 'chart-bar',
+      path: '/role-hub/performance-management',
+    },
+    {
+      id: 'rewards-welfare',
+      title: 'Rewards & Welfare',
+      description: 'Manage employee rewards, payroll-related welfare and recognition.',
+      icon: 'gift',
+      path: '/role-hub/rewards-welfare',
+    },
+    {
+      id: 'career-roadmap',
+      title: 'Career Roadmap',
+      description: 'Manage employee development and strategic career progression.',
+      icon: 'trending-up',
+      path: '/role-hub/career-roadmap',
+    },
+    {
+      id: 'culture-management',
+      title: 'Culture Management',
+      description: 'Monitor engagement initiatives and organizational culture.',
+      icon: 'heart',
+      path: '/role-hub/culture-management',
+    },
+    {
+      id: 'regions-teams',
+      title: 'Regions / Teams / Technicians',
+      description: 'Manage organizational structure, departments and assigned teams.',
+      icon: 'map-pin',
+      path: '/role-hub/regions-teams',
+    },
+    {
+      id: 'strategy-dashboard',
+      title: 'Strategy Dashboard',
+      description: 'Corporate strategy, objectives and organizational performance.',
+      icon: 'target',
+      path: '/role-hub/strategy-dashboard',
+    },
+  ],
+}
